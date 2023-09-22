@@ -1,0 +1,137 @@
+.App {
+  text-align: center;
+  font-family: "Goudy Old Style","Times New Roman", Times, serif;
+}
+
+.App-header {
+  background-image: url('./images/background.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-color: #282c34;
+  height: 220px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.App-logo {
+	height: 160px;
+}
+
+.showlink {
+	padding: 0.2rem 0.6rem;
+	background-color: white;
+	border-radius: 3px;
+	color: #070707;
+	text-decoration: none !important;
+	margin: 5px;
+  font-size: 20px;
+}
+
+.showlink:hover {
+	background-color: transparent;
+	color: white;
+	border: 2px solid white;
+  font-size: 20px;
+}
+
+.Home-para {
+	text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 24px;
+}
+
+/*CSS for events page */
+
+.main-div{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-decoration: none !important;
+}
+
+.page-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+}
+
+.page_button{
+  padding: 0.2rem 0.6rem;
+	background-color: white;
+	border-radius: 3px;
+	color: #131313;
+	text-decoration: none !important;
+  font-size: 20px;
+}
+
+.page_button:hover {
+	background-color:  #0a0a0a;
+	color: white;
+	border: 2px solid white;
+  font-size: 20px;
+}
+
+.page_indicator{
+  margin: 0 40px;
+}
+
+.Link-for-eventcard{
+  text-decoration: none !important;
+}
+
+
+/*foe event details page css*/
+
+cite {
+	font-weight: bold;
+}
+table {
+	align-content: center;
+	margin: auto;
+}
+td {
+	padding: 10px;
+}
+
+.title {
+	font-weight: bold;
+	color: #af0e0e;
+  font-size: 20px;
+}
+
+dt,
+dl {
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+dt {
+	display: inline-block;
+}
+
+dd {
+	display: inline;
+	margin-left: 5px;
+  font-size: 20px;
+}
+
+.search_fonts{
+	font-size: 30px;
+}
+.searchbox_fonts{
+	font-size: 25px;
+}
+
+.button{
+	margin-left: 20px;
+	margin-bottom: 50px;
+	padding: 0.2rem 0.6rem;
+	background-color: white;
+	border-radius: 3px;
+	color: #171818;
+	text-decoration: none !important;
+  	font-size: 20px;
+}
