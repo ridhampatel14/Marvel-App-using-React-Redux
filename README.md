@@ -36,16 +36,22 @@ npm install
 
 3. Create a .env file and add your Marvel API keys:
 
+```bash
 MARVEL_PUBLIC_KEY=your_public_key
 MARVEL_PRIVATE_KEY=your_private_key
+```
 
 4. Start the server:
 
+```bash
 npm start
+```
 
 5. Start the React application:
 
+```bash
 cd client
 npm start
+```
 
 6. Access the application at http://localhost:3000.
