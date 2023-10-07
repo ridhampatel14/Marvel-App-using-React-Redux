@@ -28,6 +28,7 @@ git clone <repository_url>
 
 2. Install dependencies:
 
+```bash
 cd react-redux-marvel-api
 npm install
 
