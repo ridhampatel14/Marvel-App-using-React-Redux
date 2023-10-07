@@ -25,10 +25,10 @@ To run this project locally, follow these steps:
 
 ```bash
 git clone <repository_url>
+```
 
 2. Install dependencies:
 
-```bash
 cd react-redux-marvel-api
 npm install
 
