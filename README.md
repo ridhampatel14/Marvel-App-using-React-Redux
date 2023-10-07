@@ -9,11 +9,11 @@ A Marvel Character collecting application that incorporates Express, Redis, and 
 
 ## Project Description
 
-In this assignment, you will create a Marvel Character collecting application using React, Redux/Context API, Express for the server, and Redis for caching Marvel API data.
+In this Project, I have created a Marvel Character collecting application using React, Redux/Context API, Express for the server, and Redis for caching Marvel API data.
 
-1. **Express Server**: You will set up an Express server with routes to query the Marvel API. The React application will make Axios calls to these server routes instead of directly calling Marvel API endpoints. The server will check if the requested data is in the Redis cache. If found, it will respond with the cached data; otherwise, it will fetch the data from the Marvel API, store it in the cache, and then respond.
+1. **Express Server**: it uses Express server with routes to query the Marvel API. The React application will make Axios calls to these server routes instead of directly calling Marvel API endpoints. The server will check if the requested data is in the Redis cache. If found, it will respond with the cached data; otherwise, it will fetch the data from the Marvel API, store it in the cache, and then respond.
 
-2. **Redux/Context API**: You will use Redux or the Context API (your choice) to manage the collector/Marvel Character states within your React application.
+2. **Redux/Context API**: it uses Redux to manage the collector/Marvel Character states within your React application.
 
 To use the Marvel API, you must sign up for an API key and follow the authorization process mentioned in the [Marvel Developer Documentation](https://developer.marvel.com/documentation/authorization).
 
@@ -29,8 +29,10 @@ git clone <repository_url>
 
 2. Install dependencies:
 
+```bash
 cd react-redux-marvel-api
 npm install
+```
 
 3. Create a .env file and add your Marvel API keys:
 
